@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Project3",
+			"Path": "D:\\School\\Spring 2021\\console-programming\\Project3\\Source\\Project3.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Project3Editor",
+			"Path": "D:\\School\\Spring 2021\\console-programming\\Project3\\Source\\Project3Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

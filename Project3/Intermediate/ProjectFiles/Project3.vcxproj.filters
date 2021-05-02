@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Project3.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D0924E21-C9C3-4C68-8EF2-CB8B739DF902}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Project3.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Project3Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{13BA5378-B07B-436D-97D2-0FDFD9DAA3CB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Project3">
+      <UniqueIdentifier>{D0D0DDA7-4D45-44AB-A0EA-E44D25A4BAF3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project3\MyPlayerController.cpp">
+      <Filter>Source\Project3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project3\MyPlayerController.h">
+      <Filter>Source\Project3</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Project3\Project3.Build.cs">
+      <Filter>Source\Project3</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Project3\Project3.cpp">
+      <Filter>Source\Project3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project3\Project3.h">
+      <Filter>Source\Project3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

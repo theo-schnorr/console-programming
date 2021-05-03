@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Project3.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D0924E21-C9C3-4C68-8EF2-CB8B739DF902}</UniqueIdentifier>
+      <UniqueIdentifier>{2D068DC6-3417-4AFF-A0D7-930486CFAB6A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Project3.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{13BA5378-B07B-436D-97D2-0FDFD9DAA3CB}</UniqueIdentifier>
+      <UniqueIdentifier>{AE63DEB2-0037-4E50-84B1-AA97E6E4CD81}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,12 +27,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Project3">
-      <UniqueIdentifier>{D0D0DDA7-4D45-44AB-A0EA-E44D25A4BAF3}</UniqueIdentifier>
+      <UniqueIdentifier>{34BCA8B3-0657-41EF-813B-A87F75C38FE3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Project3\MyPlayerController.cpp">
       <Filter>Source\Project3</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Project3\MyPlayerController.h">
+      <Filter>Source\Project3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project3\PointBubbleSpawning.cpp">
+      <Filter>Source\Project3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project3\PointBubbleSpawning.h">
       <Filter>Source\Project3</Filter>
     </ClInclude>
     <None Include="..\..\Source\Project3\Project3.Build.cs">

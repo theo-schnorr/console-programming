@@ -33,10 +33,6 @@ public:
 
 	void MoveRight(float value);
 
-	//void Turn(float value);
-
-	//void LookUp(float value);
-
 	/* PROPERTIES */
 	UPROPERTY(Transient, EditAnywhere, BlueprintReadWrite)
 	ACharacter* mPlayer;

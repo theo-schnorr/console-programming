@@ -18,11 +18,13 @@ struct FTransform;
 #define Project3_Source_Project3_PointBubbleSpawning_h_15_SPARSE_DATA
 #define Project3_Source_Project3_PointBubbleSpawning_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execRandomizeActor); \
 	DECLARE_FUNCTION(execRandomizeSpawnLocation);
 
 
 #define Project3_Source_Project3_PointBubbleSpawning_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execRandomizeActor); \
 	DECLARE_FUNCTION(execRandomizeSpawnLocation);
 
 

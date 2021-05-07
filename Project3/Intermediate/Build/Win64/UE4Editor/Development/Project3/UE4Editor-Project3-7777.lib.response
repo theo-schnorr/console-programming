@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Project3-7777.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\School\Spring 2021\console-programming\Project3\Intermediate\Build\Win64\Project3Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\School\Spring 2021\console-programming\Project3\Intermediate\Build\Win64\UE4Editor\Development\Project3\MyPlayerController.cpp.obj"
+"D:\School\Spring 2021\console-programming\Project3\Intermediate\Build\Win64\UE4Editor\Development\Project3\PointBubbleSpawning.cpp.obj"
+"D:\School\Spring 2021\console-programming\Project3\Intermediate\Build\Win64\UE4Editor\Development\Project3\Project3.cpp.obj"
+"D:\School\Spring 2021\console-programming\Project3\Intermediate\Build\Win64\UE4Editor\Development\Project3\MyPlayerController.gen.cpp.obj"
+"D:\School\Spring 2021\console-programming\Project3\Intermediate\Build\Win64\UE4Editor\Development\Project3\PointBubbleSpawning.gen.cpp.obj"
+"D:\School\Spring 2021\console-programming\Project3\Intermediate\Build\Win64\UE4Editor\Development\Project3\Project3.init.gen.cpp.obj"
+"D:\School\Spring 2021\console-programming\Project3\Intermediate\Build\Win64\UE4Editor\Development\Project3\Default.rc2.res"
+/OUT:"D:\School\Spring 2021\console-programming\Project3\Intermediate\Build\Win64\UE4Editor\Development\Project3\UE4Editor-Project3-7777.lib"
+/INCLUDE:IMPLEMENT_MODULE_Project3

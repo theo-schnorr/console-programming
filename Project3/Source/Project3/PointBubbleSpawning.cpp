@@ -25,28 +25,29 @@ FTransform UPointBubbleSpawning::RandomizeSpawnLocation(AActor* minActor, AActor
 	return spawn;
 }
 
-/*
-UClass UPointBubbleSpawning::RandomizeActor(UClass classOne, UClass classTwo, UClass classThree, UClass classFour)
+TSubclassOf<AActor> UPointBubbleSpawning::RandomizeActor(TSubclassOf<AActor> actorOne, TSubclassOf<AActor> actorTwo, TSubclassOf<AActor> actorThree, TSubclassOf<AActor> actorFour)
 {
 	int choice = FMath::RandRange(0,3);
 
 	switch (choice)
 	{
 	case 0:
-		return classOne;
+		return actorOne;
 		break;
 
 	case 1:
-		return classTwo;
+		return actorTwo;
 		break;
 
 	case 2:
-		return classThree;
+		return actorThree;
 		break;
 
 	case 3:
-		return classFour;
+		return actorFour;
 		break;
+
+	default:
+		return actorFour;
 	}
 }
-*/
